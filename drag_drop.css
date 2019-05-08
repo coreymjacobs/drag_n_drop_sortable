@@ -1,0 +1,18 @@
+
+.held {
+    border: dashed 1px black;
+    background-color: lightgray;
+}
+
+.data_block {
+    border: solid 1px black;
+    width: 500px;
+    padding: 20px;
+}
+
+.data_title {
+    border: solid 1px black;
+    width: 200px;
+    padding: 2px;
+}
+

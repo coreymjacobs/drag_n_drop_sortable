@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Drag n Drop for DIV with children</title>
+    <link rel="stylesheet" href="drag_drop.css">
+</head>
+
+<body>
+
+  <div class="container_data" id="data_container">
+    
+    <div class="data_block" id="data_block_1">Block 1
+      <span class="data_title" id="child_1">Child 1</span>
+    </div>
+
+    <div class="data_block" id="data_block_2">Block 2
+      <span class="data_title" id="child_2">Child 2</span>
+    </div>
+    
+    <div class="data_block" id="data_block_3">Block 3
+      <span class="data_title" id="child_3">Child 3</span>
+    </div>
+    
+    <div class="data_block" id="data_block_4">Block 4
+      <span class="data_title" id="child_4">Child 4</span>
+    </div>
+    
+    <div class="data_block" id="data_block_5">Block 5
+      <span class="data_title" id="child_5">Child 5</span>
+    </div>
+
+  </div>
+
+</body>
+
+
+<script src="drag_drop.js"></script>
+<script>
+  //pass in class name of DIVs for sortable drag n drop
+  drag_drop('data_block');
+</script>
+
+
+</html>
