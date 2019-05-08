@@ -15,7 +15,7 @@ async function drag_drop (parent_div) {
         block.draggable = true;
     }
 
-    //global var for selcted item
+    //global var for selected item
     let selected_block;
 
     function dragStart(e) {
