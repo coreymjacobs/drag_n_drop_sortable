@@ -81,7 +81,7 @@ Built using node v11.9.0
 ```javascript
 //javascript
 
-async function drag_drop (parent_div) {
+function drag_drop (parent_div) {
     //get all child elements, blocks
     //returns a htmlCollection
     const blocks = document.getElementsByClassName(parent_div);
