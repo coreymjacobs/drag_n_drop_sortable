@@ -1,5 +1,5 @@
 
-async function drag_drop (parent_div) {
+function drag_drop (parent_div) {
     //get all child elements, blocks
     const blocks = document.getElementsByClassName(parent_div);
 
